@@ -39,7 +39,7 @@ I am a PhD Researcher in Mathematical Analysis, Modeling and Applications at SIS
 
 ## Conferences and schools
 
-- **SIMAI 2025**, Italian Society of Applied and Industrial Mathematics Conference, Trieste, Italy. Contributed talk: *C0-DG Solver and Reduction Strategies for Orthotropic Plates on Elastic Foundations with Interface Contacts*.
+- **[SIMAI 2025](https://simai2025.cimne.com/event/contribution/3025f429-3248-11f0-a5f6-000c29ddfc0c)**, Italian Society of Applied and Industrial Mathematics Conference, Trieste, Italy. Contributed talk: *[C0-DG Solver and Reduction Strategies for Orthotropic Plates on Elastic Foundations with Interface Contacts](https://simai2025.cimne.com/event/contribution/3025f429-3248-11f0-a5f6-000c29ddfc0c)*.
 - **SAMM 2025**, 10th GAMM Juniors Summer School on Model Order Reduction in Mechanics.
 - **Dobbiaco Summer School 2023**, Data-driven Methods for the Computational Sciences.
 

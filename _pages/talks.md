@@ -7,10 +7,13 @@ author_profile: true
 
 ## Conference talks
 
-### SIMAI 2025 - Italian Society of Applied and Industrial Mathematics Conference
+### [SIMAI 2025 - Italian Society of Applied and Industrial Mathematics Conference](https://simai2025.cimne.com/event/contribution/3025f429-3248-11f0-a5f6-000c29ddfc0c)
 
-**Trieste, Italy, September 2025**  
-Contributed talk: *C0-DG Solver and Reduction Strategies for Orthotropic Plates on Elastic Foundations with Interface Contacts*.
+**Location:** Trieste, Italy  
+**Date:** September 2025  
+Contributed talk: *[C0-DG Solver and Reduction Strategies for Orthotropic Plates on Elastic Foundations with Interface Contacts](https://simai2025.cimne.com/event/contribution/3025f429-3248-11f0-a5f6-000c29ddfc0c)*.
+
+[View contribution page](https://simai2025.cimne.com/event/contribution/3025f429-3248-11f0-a5f6-000c29ddfc0c)
 
 ## Schools
 
