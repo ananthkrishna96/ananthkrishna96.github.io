@@ -7,9 +7,9 @@ redirect_from:
   - /resume
 ---
 
-A public version of my CV is available here:
+A public website version of my CV is available here:
 
-[Download CV PDF](/files/Anantha_Krishnan_CV_2026_Public.pdf)
+[Download CV PDF](/files/WEBSITE_ANANTH_CV_2026.pdf)
 
 ## Research profile
 
@@ -23,10 +23,11 @@ I am a PhD Researcher in Mathematical Analysis, Modeling and Applications at SIS
 
 ## Experience
 
-- **Research Intern**, AEE INTEC - Institute for Sustainable Technologies, Austria, 2025 - 2026.
-- **Scientific Computing Algorithms and Software Developer**, Freelance, 2024 - 2025.
-- **Research Trainee**, Institute of Fluid Dynamics and Technical Acoustics, TU Berlin, Germany, 2021 - 2022.
+- **Research Trainee**, Institute of Fluid Dynamics and Technical Acoustics, Technical University of Berlin, Germany, 2021 - 2022.
 - **Project Intern**, Techzilon Training Solutions, Bangalore, India, 2018 - 2019.
+- **Engineering simulation and numerical modeling for industrial clients**
+  - **Research Intern (Portfolio Project)**: physics-based dynamic modeling, collector-field dynamics, 1D pipe heat-loss, lumped 0D heat-exchanger modeling, coupled forward simulation, validation with operational data, sensor mapping, automated tests, and diagnostic plots.
+  - **Scientific Computing Algorithms and Software Developer (Portfolio Project)**: FEA and CFD modeling for multi-scale coupled-physics simulations, additive manufacturing applications, multi-objective parametric optimization, and integration of numerical models into engineering simulation codebases.
 
 ## Technical expertise
 

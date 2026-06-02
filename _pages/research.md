@@ -31,9 +31,9 @@ My research interests also include thermomechanical coupling, CFD/FEA simulation
 
 My earlier research work involved CFD-based characterization of aeroacoustic transfer matrices for narrow ducts and perforated plates, using compressible CFD, broadband forcing, post-processing, system identification, and low-order acoustic network modeling. This work connects CFD, ROM, data analysis, and computational efficiency for acoustic and flow systems.
 
-## Solar-thermal dynamic modeling
+## Physics-based dynamic modeling and validation
 
-During my research internship at AEE INTEC, I developed physics-based solar-thermal models within the SunPeek D-CAT framework, including collector-field dynamics, 1D pipe heat-loss models, lumped 0D heat-exchanger models, validation with operational data, sensor mapping, automated tests, and diagnostic plots.
+During a portfolio-project research internship, I developed physics-based models within the SunPeek D-CAT framework, including collector-field dynamics, 1D pipe heat-loss models, lumped 0D heat-exchanger models, validation with operational data, sensor mapping, automated tests, and diagnostic plots.
 
 ## Keywords
 

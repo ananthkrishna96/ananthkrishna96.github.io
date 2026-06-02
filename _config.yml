@@ -1,8 +1,6 @@
 # Welcome to Jekyll!
-# Main configuration for Anantha Krishnan Orunnukaran Mani's Academic Pages site.
-# Repository: https://github.com/ananthkrishna96/ananthkrishna96.github.io
+# Academic Pages configuration for Anantha Krishnan Orunnukaran Mani.
 
-# Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
 title                    : "Anantha Krishnan Orunnukaran Mani"
@@ -13,8 +11,7 @@ url                      : "https://ananthkrishna96.github.io"
 baseurl                  : ""
 repository               : "ananthkrishna96/ananthkrishna96.github.io"
 
-# Site Author
-# Avoid publishing full street address, phone number, passport/residence details, or other private data.
+# Site Author - appears in the left sidebar.
 author:
   avatar           : "anantha_profile.jpg"
   name             : "Anantha Krishnan Orunnukaran Mani"
@@ -24,8 +21,8 @@ author:
   employer         : "SISSA"
   uri              : "https://ananthkrishna96.github.io"
   email            : "ananthakrishnanom@gmail.com"
+  cv               : "/files/WEBSITE_ANANTH_CV_2026.pdf"
 
-  # Academic websites
   academia         :
   arxiv            :
   googlescholar    :
@@ -39,7 +36,6 @@ author:
   scopus           :
   zotero           :
 
-  # Repositories and software development
   bitbucket        :
   codepen          :
   dribbble         :
@@ -48,7 +44,6 @@ author:
   kaggle           :
   stackoverflow    :
 
-  # Social media
   artstation       :
   bluesky          :
   facebook         :
@@ -75,19 +70,14 @@ author:
   youtube          :
   zhihu            :
 
-  # Custom links added in _includes/author-profile.html
-  cv               : "/files/Anantha_Krishnan_CV_2026_Public.pdf"
-
-# Publication Category
 publication_category:
-  theses:
-    title: "Theses"
+  books:
+    title: 'Books'
   manuscripts:
-    title: "Manuscripts and Preprints"
+    title: 'Journal Articles'
   conferences:
-    title: "Conference Papers and Proceedings"
+    title: 'Conference Papers'
 
-# Site Settings
 teaser                   :
 breadcrumbs              : false
 words_per_minute         : 160
@@ -96,38 +86,60 @@ read_more                : "disabled"
 talkmap_link             : false
 comments:
   provider               :
+  disqus:
+    shortname            :
+  discourse:
+    server               :
+  facebook:
+    appid                :
+    num_posts            :
+    colorscheme          :
+staticman:
+  allowedFields          : ['name', 'email', 'url', 'message']
+  branch                 : "master"
+  commitMessage          : "New comment."
+  filename               : comment-{@timestamp}
+  format                 : "yml"
+  moderation             : true
+  path                   : "_data/comments/{options.slug}"
+  requiredFields         : ['name', 'email', 'message']
+  transforms:
+    email                : "md5"
+  generatedFields:
+    date:
+      type               : "date"
+      options:
+        format           : "iso8601"
 atom_feed:
-  hide                   : true
+  hide                   : false
   path                   :
 
-# SEO Related
 google_site_verification :
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
 
-# Social Sharing
 twitter:
-  username               :
+  username               : &twitter
 facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "anantha_profile.jpg"
-og_description           : "Academic and research website of Anantha Krishnan Orunnukaran Mani."
+og_image                 :
+og_description           :
 social:
   type                   : Person
   name                   : "Anantha Krishnan Orunnukaran Mani"
   links:
     - "https://github.com/ananthkrishna96"
     - "https://gitlab.com/ananth96"
-    - "https://www.linkedin.com/in/au4702"
+    - "https://linkedin.com/in/au4702"
 
-# Analytics
 analytics:
   provider               : "false"
+  google:
+    tracking_id          :
 
-# Reading Files
 include:
   - .htaccess
   - _pages
@@ -165,14 +177,12 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-# Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
-# Markdown Processing
 kramdown:
   input: GFM
   hard_wrap: false
@@ -183,33 +193,21 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-# Collections
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
   publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
     output: true
     permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
+  teaching:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
 
-# Defaults
 defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: false
-      share: false
-      related: true
   - scope:
       path: ""
       type: pages
@@ -218,72 +216,42 @@ defaults:
       author_profile: true
   - scope:
       path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: false
-      comments: false
-  - scope:
-      path: ""
       type: publications
     values:
       layout: single
       author_profile: true
-      share: false
-      comments: false
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: false
-      comment: false
+      share: true
   - scope:
       path: ""
       type: talks
     values:
       layout: talk
       author_profile: true
-      share: false
+      share: true
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      related: true
 
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed
-
-# Outputting
-permalink: /:categories/:title/
-timezone: Europe/Rome
-
-# Plugins
-plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jemoji
-
-# GitHub Pages allowlist
-whitelist:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jemoji
-
-# Archives
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-
-# HTML Compression
+date_format: "%B %-d, %Y"
 compress_html:
   clippings: all
   ignore:

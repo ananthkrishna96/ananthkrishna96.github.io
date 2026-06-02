@@ -6,33 +6,35 @@ author_profile: true
 ---
 
 ## PhD Researcher in Mathematical Analysis, Modeling and Applications
-**SISSA - Scuola Internazionale Superiore di Studi Avanzati, Trieste, Italy**  
-10/2022 - Present
 
-High-fidelity fourth-order finite element models and POD-based reduced-order models for orthotropic plate and shell systems on elastic foundations, with unilateral contact and panel-interface coupling. Current work includes intrusive POD-Galerkin ROMs, data-driven ROMs, POD-NN models, neural-network surrogates, autoencoder latent models, ML-based coefficient prediction, thermomechanical extensions, transient dynamic response prediction, coupled simulation, verification, and ROM-oriented workflows.
+**Scuola Internazionale Superiore di Studi Avanzati (SISSA), Trieste, Italy**  
+**10/2022 - Present**
 
-**Collaborations:** NextGenerationEU-PNRR / EPS Italia Srl, SISSA mathLab, University of Houston.
+- High-fidelity fourth-order finite element models and POD-based ROMs for orthotropic plate and shell systems on elastic foundations, with unilateral contact and panel-interface coupling.
+- Intrusive POD-Galerkin and data-driven ROMs using POD-NN, neural-network surrogates, autoencoder latent models, and ML-based coefficient prediction for fast many-query simulation.
+- Thermomechanical and transient dynamic extensions for structural response prediction, coupled simulation, verification, and ROM-oriented workflows.
+- Collaborations: NextGenerationEU-PNRR/EPS Italia Srl, SISSA mathLab, University of Houston.
 
 ## Master's Degree in Space and Astronautical Engineering
+
 **Sapienza University of Rome, Italy**  
-09/2019 - 07/2022
+**09/2019 - 07/2022**
 
-Specialization in fluid dynamics, structural mechanics, thermo-acoustics, and control systems.
+Specialization: Fluid Dynamics, Structural Mechanics, Thermo-acoustics, and Control Systems.
 
-**Selected projects:**
+Selected projects:
 
-- Master's thesis: characterization of the aeroacoustic transfer matrix of narrow ducts and perforated plates based on compressible CFD and system identification.
+- Master's thesis on characterization of aeroacoustic transfer matrices of narrow ducts and perforated plates using compressible CFD and system identification.
 - Data analysis and modeling of turbulent flows, TU Berlin, Germany.
-- Design and analysis of the 6U HyonoSat CubeSat - OBDH and thermal subsystem.
-
-**Thesis DOI:** [https://doi.org/10.6084/m9.figshare.20210714.v1](https://doi.org/10.6084/m9.figshare.20210714.v1)
+- Design and analysis of the 6U HyonoSat CubeSat OBDH and thermal subsystem.
 
 ## Bachelor of Technology in Aerospace Engineering
-**SRM Institute of Science and Technology, Chennai, India**  
-06/2014 - 05/2018
 
-**Selected projects:**
+**SRM Institute of Science and Technology, Chennai, India**  
+**06/2014 - 05/2018**
+
+Selected projects:
 
 - Design and fabrication of surveillance hovercraft.
 - Remote-controlled weather monitoring and surveillance UAV.
-- Free convection heat transfer analysis of thermal flask.
+- Free-convection heat-transfer analysis of a thermal flask.

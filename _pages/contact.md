@@ -5,20 +5,13 @@ permalink: /contact/
 author_profile: true
 ---
 
-I am currently based in Trieste, Italy.
+## Contact
 
-## Email
+I am based in Trieste, Italy.
 
-- [ananthakrishnanom@gmail.com](mailto:ananthakrishnanom@gmail.com)
-
-## Profiles
-
-- [GitHub](https://github.com/ananthkrishna96)
-- [GitLab](https://gitlab.com/ananth96)
-- [LinkedIn](https://www.linkedin.com/in/au4702)
-
-## CV
-
-- [Download CV PDF](/files/Anantha_Krishnan_CV_2026_Public.pdf)
-
-For privacy, this website does not publish my full street address or phone number. Those details can be shared when needed for formal applications or institutional procedures.
+- **Email:** [ananthakrishnanom@gmail.com](mailto:ananthakrishnanom@gmail.com)
+- **Website:** [ananthkrishna96.github.io](https://ananthkrishna96.github.io)
+- **GitHub:** [github.com/ananthkrishna96](https://github.com/ananthkrishna96)
+- **GitLab:** [gitlab.com/ananth96](https://gitlab.com/ananth96)
+- **LinkedIn:** [linkedin.com/in/au4702](https://linkedin.com/in/au4702)
+- **CV:** [Download CV PDF](/files/WEBSITE_ANANTH_CV_2026.pdf)
